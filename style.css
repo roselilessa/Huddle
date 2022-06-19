@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+.background {
+    background-image: url('./images/bg-desktop.svg');
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+    padding: 50px;
+}
+
+.imagem__principal {
+    margin-left: 40px;
+}
+.principal {
+    display: flex;
+
+}
+
+.texto__botao {
+    padding: 0 100px;
+}
+.titulo__texto {
+    color: white;
+    font-size: 18px;
+}
+
+.titulo__texto p {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.button {
+    color: hsl(300, 69%, 71%);
+    padding: 20px 60px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 10px;
+}
+
+.rodape img {
+    width: 35px;
+}
